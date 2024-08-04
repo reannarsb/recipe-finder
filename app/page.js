@@ -1,11 +1,4 @@
 
-export default function Page() {
-    return (
-        <main className="p-8">
-
-        </main>
-    );
-}
 
 import Image from "./image";
 import SingleRecipe from "./single-recipe";

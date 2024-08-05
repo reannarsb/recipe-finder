@@ -7,7 +7,7 @@ export default function Recipe({ recipe }) {
     } = recipe;
 
     return (
-        <div className="recipe-card p-4 m-4 bg-pink-200 rounded shadow-lg text-black">
+        <div className="recipe-card p-4 m-4 bg-slate-100 rounded-lg shadow-lg text-black font-sans">
             <h3 className="text-2xl font-bold">{title}</h3>
             <p className="my-2"><strong>Servings:</strong> {servings}</p>
             <p className="my-2">
